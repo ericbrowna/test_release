@@ -1,0 +1,227 @@
+---
+packages:
+  achievement-service:
+    version: '954'
+    deployment_style: docker
+    triggering_branch: origin/release/1.52.0+s2016.1.Animal
+    commit_id: 01ab27bce192cc79a571dbb250e2b7c43fdc0c30
+  crittercisminternal:
+    version: 79ab679e2027909015b6d61bb1f5024bc0886adf
+    deployment_style: git
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 79ab679e2027909015b6d61bb1f5024bc0886adf
+  txn-egress:
+    version: '124'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: cbb65955b9fdb6bae7fddb1e41c481f01a0180ca
+  auth-service:
+    version: '31'
+    deployment_style: docker
+    triggering_branch: origin/release/1.54.0+s2016.3.CookieMonster
+    commit_id: 1d12df9b3fb86e2124a9068ec8b9e084789ddb26
+  capp-service:
+    version: '18'
+    deployment_style: docker
+    triggering_branch: origin/release/1.40.0+s40.ned
+    commit_id: 71a1e909f9e6e5ec8b2c487efc12c5561cd7e198
+  notification-service:
+    version: '891'
+    deployment_style: docker
+    triggering_branch: origin/release/1.40.0+s40.ned
+    commit_id: 6af7d40f494156c102a8206b30aff49d0d960911
+  file-server:
+    version: '15'
+    deployment_style: docker
+    triggering_branch: origin/release/1.41.0+s41.oberyn
+    commit_id: a0ffdfb9be53ef9051fe3039f60f379c25ee1f34
+  app-load-server:
+    version: 2714e293f228ea6a557ae2b0f987751ac646baa8
+    deployment_style: git
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 2714e293f228ea6a557ae2b0f987751ac646baa8
+  crash-count-data-consumer:
+    version: 25a3f096705427b35e90a1d5eea67e97277b0ac6
+    deployment_style: git
+    triggering_branch: origin/master
+    commit_id: 25a3f096705427b35e90a1d5eea67e97277b0ac6
+  apm-server:
+    version: fd9b3ff1d091c172f902d31402152ec159b38f41
+    deployment_style: git
+    triggering_branch: origin/release/1.52.0+s2016.1.Animal
+    commit_id: fd9b3ff1d091c172f902d31402152ec159b38f41
+  crash-events-mr-driver:
+    version: '6'
+    deployment_style: docker
+    triggering_branch: origin/release/1.36.0+s36.jaime
+    commit_id: 7cefe806cde8a5581a117bd19ef305281f80f8cc
+  apm-analytics-consumer:
+    version: 0c486eb2cf0ed9e26025c4e199223f44a78d4e04
+    deployment_style: git
+    triggering_branch: origin/release/1.36.0+s36.jaime
+    commit_id: 0c486eb2cf0ed9e26025c4e199223f44a78d4e04
+  ums:
+    version: '53'
+    deployment_style: docker
+    triggering_branch: origin/release/1.52.0+s2016.1.Animal
+    commit_id: 26d0d004c647c0e0a43585a1438f77065dd28576
+  ams:
+    version: '164'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: bcedc0970e6e784ef04d21efcfdb69e8ed60a5df
+  zuora-connector:
+    version: '72'
+    deployment_style: docker
+    triggering_branch: origin/release/1.54.0+s2016.3.CookieMonster
+    commit_id: fa1238f35c42ac1c79b7114ea7b34e94b4799641
+  invite-service:
+    version: '100'
+    deployment_style: docker
+    triggering_branch: origin/release/1.54.0+s2016.3.CookieMonster
+    commit_id: 7799178ee817076e67f025e919a1190cb686f6ac
+  salesforce-connector:
+    version: '43'
+    deployment_style: docker
+    triggering_branch: origin/release/1.49.0+s49.Whitewalker
+    commit_id: e0e380c188824735a40e7ba4cdd3d34ed0a64890
+  txn-config-service:
+    version: '43'
+    deployment_style: docker
+    triggering_branch: origin/hotfix/1.54.3+OPS-2146
+    commit_id: e887a71750120abfb98b4e0001208d6e0aa54d7f
+  portal:
+    version: 93ddfcf35da1ebc5c2060d2b4093c8df313fc742
+    deployment_style: git
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 93ddfcf35da1ebc5c2060d2b4093c8df313fc742
+  txn-aggregator-service:
+    version: '10'
+    deployment_style: docker
+    triggering_branch: origin/release/1.39.0+s39.melisandre
+    commit_id: 61d7aef2040cdc5cb7931e02510daee6ec9b0ebf
+  txn-analytics:
+    version: '13'
+    deployment_style: docker
+    triggering_branch: origin/release/1.39.0+s39.melisandre
+    commit_id: f7730b73b9fd80845c245e74412b180c7485709e
+  txn-collector:
+    version: '14'
+    deployment_style: docker
+    triggering_branch: origin/release/1.40.0+s40.ned
+    commit_id: e8f20fa45c5fc98e1cba861c4919488e571d9cfb
+  txn-mapper:
+    version: '8'
+    deployment_style: docker
+    triggering_branch: origin/release/1.39.0+s39.melisandre
+    commit_id: f991b6c1bdb51b385d621a63676217412309084c
+  txn-tracer:
+    version: '29'
+    deployment_style: docker
+    triggering_branch: origin/release/1.45.0+s45.Samwell
+    commit_id: 00a1295de5eb2dee3d59f249d58c5976f1792256
+  collector:
+    version: '26'
+    deployment_style: docker
+    triggering_branch: origin/release/1.42.0+s42.Petyr
+    commit_id: e8382ccd26080642133f330b52d78d0676d9edae
+  crash-service:
+    version: '13'
+    deployment_style: docker
+    triggering_branch: origin/release/1.53.0+s2016.2.Beaker
+    commit_id: 7048cddb4dc97d6fdc1ac2353556203961ca5ec8
+  txn-cron:
+    version: a6c8c508af4d30942bc85152c664b0de1545ca91
+    deployment_style: git
+    triggering_branch: origin/release/1.41.0+s41.oberyn
+    commit_id: a6c8c508af4d30942bc85152c664b0de1545ca91
+  omniture:
+    version: '2'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 954bba83178ba761bcfed76a11922f45dad3bc62
+  event-collector:
+    version: '146'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 2977da593c9c633eb98a9b79cb8dca83adab478b
+  error-processor:
+    version: '492'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 5443471cef71292613423567412b8d6ec4b8be46
+  integration_adobe:
+    version: '30'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 88f99a004d3bc4a8cc3c080c6abcc57938922374
+  blob-writer:
+    version: '234'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 12ec476e51703b282459ef873d918f40f045b608
+  blob-service:
+    version: '263'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 999ee7c06952f46f4c47ecaf74734aecfe5762e1
+  annotator-service:
+    version: '62'
+    deployment_style: docker
+    triggering_branch: origin/release/1.54.0+s2016.3.CookieMonster
+    commit_id: a6ad23a88f5da47e47bdae234d2f600f6ccb7a32
+  critter-camus:
+    version: '230'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: d710df1d434eb6b24e10140ac15d188b54d7ef96
+  crash-details-from-s3:
+    version: '207'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 71eaae81a4258c9226853dc99b137f44c83d6678
+  error-details-rollup:
+    version: '197'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 64fe174782862d96bc3cebfd4d3da9f6181f8581
+  handled-exception-details-from-s3:
+    version: '224'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: d8b426ce5be82afa6697ae2691205f5f51f9dfea
+  hdfs2cass:
+    version: '195'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 8672601b40adfc62f239d103daeb883f1cb38879
+  error-summary-from-details:
+    version: '154'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: a065d69ae5fadb076ba1920cadae7fd029580898
+  error-query-layer:
+    version: '441'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 43856c7f867b308f305bd82c11d6a1bf8726f7d6
+  transaction-processor:
+    version: '5'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 52df9683dd1a1cb7478e559e98d7a858a49cc459
+  handled-exception-live-stats:
+    version: '1'
+    deployment_style: docker
+    triggering_branch: origin/master
+    commit_id: 400c6824343b2dc84ff65c046ec0dc5648e8cf8c
+  kafka-etl:
+    version: '58'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 88b383ccf2fbeb943b9a6eea38bc1f43caf82765
+  error-post-processor:
+    version: '47'
+    deployment_style: docker
+    triggering_branch: origin/release/1.55.0+s2016.4.DoctorTeeth
+    commit_id: 1c810d75ed95bbf53a19bf7bccd9b03ca03eaef1
